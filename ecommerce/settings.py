@@ -121,8 +121,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),  # Folder for your project's static files
 ]
 
-# Add this line to specify where the static files will be collected
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Folder for collected static files
+MEDIA_URL = '/images/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')  
 
 
 # Default primary key field type
